@@ -35,7 +35,7 @@ public class KNN {
 		return 0;
 	}
 
-	// Calculate the distance between two points
+	// Calculate the distance between two records
 	public static double getDistance(Record s, Record e) {
 		return 0;
 	}
