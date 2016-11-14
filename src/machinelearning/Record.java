@@ -1,6 +1,12 @@
 package machinelearning;
 
 public class Record {
+	double[] attributes;
+	int classLabel;
 	
-	// TODO: To implement a basic record;
+	public Record(double[] attributes, int classLabel) {
+		this.attributes = attributes;
+		this.classLabel = classLabel;
+	}
+	
 }
